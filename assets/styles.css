@@ -1,0 +1,45 @@
+
+:root{
+    --main-color:#cd7752;
+}
+
+img{
+    width: 100%;
+}
+
+.product-list{
+    margin: 10px 0;
+}
+
+.btn{
+    border-bottom: 1px solid var(--main-color);
+    width: 100px;
+    text-transform: capitalize;
+}
+
+.btn:hover{
+    transform: translateY(-1.2px);
+    background-color: var(--main-color);
+    color: #ffffff;
+    transition: 0.2s all-ease;
+}
+
+.heading{
+    padding: 40px;
+    font-size: 40px;
+    text-transform: capitalize;
+    color: var(--main-color);
+}
+.product-content h4{
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin: 0;
+    padding-top:5px ;
+    display: flex;
+    justify-content: center;
+}
+
+.price{
+    padding: 5px 0;
+}
